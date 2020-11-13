@@ -19,7 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\EntityFramework\Mappings\" />
     <Folder Include="Concrete\EntityFramework\Repositories\" />
   </ItemGroup>
 
