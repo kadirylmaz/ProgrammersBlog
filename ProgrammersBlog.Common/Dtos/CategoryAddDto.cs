@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProgrammersBlog.Entities.Dtos.Category
+namespace ProgrammersBlog.Common.Dtos
 {
     public class CategoryAddDto
     {

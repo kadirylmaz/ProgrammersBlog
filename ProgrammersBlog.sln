@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30608.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammersBlog.Entities", "ProgrammersBlog.Entities\ProgrammersBlog.Entities.csproj", "{1C71E743-B097-423E-A529-BBB5CDEB6EDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgrammersBlog.Entities", "ProgrammersBlog.Entities\ProgrammersBlog.Entities.csproj", "{1C71E743-B097-423E-A529-BBB5CDEB6EDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammersBlog.Mvc", "ProgrammersBlog.Mvc\ProgrammersBlog.Mvc.csproj", "{EBCE9287-DDDF-4240-B7DD-1AEB3307DB75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgrammersBlog.Mvc", "ProgrammersBlog.Mvc\ProgrammersBlog.Mvc.csproj", "{EBCE9287-DDDF-4240-B7DD-1AEB3307DB75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammersBlog.Shared", "ProgrammersBlog.Shared\ProgrammersBlog.Shared.csproj", "{5F948044-7838-440E-9482-CC537DDF55F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgrammersBlog.Shared", "ProgrammersBlog.Shared\ProgrammersBlog.Shared.csproj", "{5F948044-7838-440E-9482-CC537DDF55F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammersBlog.DataAccess", "ProgrammersBlog.DataAccess\ProgrammersBlog.DataAccess.csproj", "{2606CE6F-4F40-4AC7-91D3-3BC44288AB20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgrammersBlog.DataAccess", "ProgrammersBlog.DataAccess\ProgrammersBlog.DataAccess.csproj", "{2606CE6F-4F40-4AC7-91D3-3BC44288AB20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammersBlog.Services", "ProgrammersBlog.Services\ProgrammersBlog.Services.csproj", "{1B2467BF-BA9C-42F1-93C0-BE1073CA9B16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgrammersBlog.Services", "ProgrammersBlog.Services\ProgrammersBlog.Services.csproj", "{1B2467BF-BA9C-42F1-93C0-BE1073CA9B16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammersBlog.Common", "ProgrammersBlog.Common\ProgrammersBlog.Common.csproj", "{9FD4A598-28D5-4EF8-9973-0ED31CBB6B4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{1B2467BF-BA9C-42F1-93C0-BE1073CA9B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B2467BF-BA9C-42F1-93C0-BE1073CA9B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B2467BF-BA9C-42F1-93C0-BE1073CA9B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD4A598-28D5-4EF8-9973-0ED31CBB6B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD4A598-28D5-4EF8-9973-0ED31CBB6B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD4A598-28D5-4EF8-9973-0ED31CBB6B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD4A598-28D5-4EF8-9973-0ED31CBB6B4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
